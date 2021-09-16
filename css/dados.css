@@ -1,0 +1,141 @@
+
+
+
+nav{
+    height: 12vh;
+    background: transparent;
+    box-shadow: none;
+    position: relative;
+}
+
+nav ul li{
+  margin: 30px 20px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #FF105F;
+  border-radius: 50%;
+  position: relative;
+}
+
+nav ul li a{
+  position: absolute;
+  top: -10px;
+  left: -2.5px;
+}
+
+nav ul li a:hover{
+  background-color: transparent;
+}
+
+nav ul li a i{
+  transition: .5s;
+}
+
+nav ul li a:hover i{
+  color: #FF105F;
+  transition: .5s;
+}
+
+.responsive-img{
+    width: 250px;
+    margin: 10px 0
+}
+
+.contato,
+.org,
+.email,
+.cancelamento{
+    font-family: Ostrich;
+    font-size: 66px;
+    letter-spacing: 1.5px;
+    margin-left: 50px;
+}
+
+.table-contato-contato .btn,
+.table-org .btn,
+.table-contato .btn,
+.table-email .btn,
+.table-cancelamento .btn{
+    background: red !important;
+    transition: all .3s ease-in-out !important;
+}
+
+.table-contato-contato .btn:hover,
+.table-org .btn:hover,
+.table-contato .btn:hover,
+.table-email .btn:hover,
+.table-cancelamento .btn:hover{
+    background: white !important;
+    transition: all .3s ease-in-out !important;
+}
+
+.table-contato-contato .btn:hover i,
+.table-org .btn:hover i,
+.table-contato .btn:hover i,
+.table-email .btn:hover i{
+  color: red !important;
+  transition: all .3s ease-in-out !important;
+}
+
+.table-contato{
+    margin-top: -80px;
+    padding: 0 50px;
+}
+
+.table-org{
+  margin-top: -80px;
+  padding: 0 50px;
+}
+
+.table-contato-contato{
+  margin-top: -80px;
+  padding: 0 50px;
+}
+
+.table-email{
+  margin-top:-80px;
+  padding: 50px;
+}
+
+th{
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+tr{
+    border-bottom: 3px solid white;
+    font-family: Coolvetica;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+}
+
+th{
+    font-size: 18px;
+}
+
+td{
+    border-left: 3px solid rgb(195, 195, 195);
+    border-right: 3px solid rgb(194, 194, 194);
+    font-family: 'Rotis';
+    letter-spacing: .5px;
+    font-size: 16px;
+  }
+
+td:hover{
+    color: #FFAC00;
+}
+
+.toast{
+  background:   #FFAC00;
+  opacity: 0.8 !important;
+}
+
+.span{
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  font-family: Ostrich;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 600;
+}

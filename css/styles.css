@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 100%;
+  background: #0077B8;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #ffffff;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #AAE6E3;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  font-size: 25px;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+.wrapper.container{
+	padding:100vh;
+}
+
+ fieldset {
+    border: 0 ;
+}
+
+ input, select, textarea, button {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    color: #000000;
+    border-radius: 5px;
+}
+
+ .grupo:before, .grupo:after {
+    display: table;
+}
+
+ .grupo:after {
+    clear: both;
+}
+
+ .campo {
+    margin-bottom: 1em;
+}
+
+ .campo label {
+    margin-bottom: 0.1em;
+    color: #0198EB;
+    display: block;
+}
+
+ fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+ fieldset.grupo2 .campo{
+    float: left;
+    margin-right:1em ;
+}
+
+ .campo input[type="text"],.campo input[type="datetime-local"], .campo input[type="email"], .campo select, .campo textarea {
+padding: 0.05em;
+    border: 1px solid #0198EB;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+ .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+
+}
+
+ .campo select option {
+    padding-right: 1em;
+}
+
+ .campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #D9E6E3;
+}
+
+ .botao {
+    font-size: 1.2em;
+    background: #0071EB;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+ .botao:hover {
+    background: #AAE6E3;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+ .botao, select{
+    cursor: pointer;
+}
+
+main{
+    padding: 2rem 4rem;
+    align-items: center;
+    flex-direction: column;
+  	display:flex;
+    justify-content: center;
+	margin-top:100px;
+  }
